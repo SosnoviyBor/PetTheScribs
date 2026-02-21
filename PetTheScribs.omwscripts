@@ -1,0 +1,4 @@
+GLOBAL: scripts/PetTheScribs/global.lua
+
+MENU: scripts/PetTheScribs/settingsMenu.lua
+GLOBAL: scripts/PetTheScribs/settingsGlobal.lua

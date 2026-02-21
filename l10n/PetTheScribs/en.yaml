@@ -1,0 +1,25 @@
+msg_scribPat: You pat the scrib.
+# TODO make messages match vanilla ones
+msg_chatchedDisease: You caught a disease from petting the scrib.
+msg_chatchedBlight: You caught blight from petting the scrib.
+
+page_name: Pet the Scribs
+page_description: You know what to do.
+
+settings_groupName: Settings
+jellyChance_name: Chance to Get Scrib Jelly
+jellyChance_desc: Only healthy scribs give jelly.
+minJelly_name: Minimum Scrib Jelly
+maxJelly_name: Maximum Scrib Jelly
+jellyCooldown_name: Scrib Jelly Cooldown (Hours)
+diseaseChance_name: Chance to Catch a Disease
+diseaseChance_desc: >
+  Happens only when petting diseased scribs.
+  Respects resistances.
+blightChance_name: Chance to Catch Blight
+blightChance_desc: >
+  Happens only when petting blighted scribs.
+  Respects resistances.
+
+other_groupName: Other
+enableMessages_name: Enable Messages
