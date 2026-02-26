@@ -62,7 +62,7 @@ I.Settings.registerGroup {
             key = 'enableMessages',
             name = 'enableMessages_name',
             renderer = 'checkbox',
-            default = false,
+            default = true,
         },
     }
 }

@@ -3,10 +3,13 @@ local core = require("openmw.core")
 local storage = require("openmw.storage")
 
 local settings = storage.globalSection("SettingsPetTheScribs_settings")
+local settingsOther = storage.globalSection("SettingsPetTheScribs_other")
 local l10n = core.l10n("PetTheScribs")
 
 local function doTheScribby(actor)
-    actor:sendEvent("ShowMessage", { message = l10n("msg_scribPat", {}) })
+    if settingsOther:get("enableMessages") then
+        actor:sendEvent("ShowMessage", { message = l10n("msg_scribPat", {}) })
+    end
 end
 
 local function normalScrib(actor, scrib, options)
