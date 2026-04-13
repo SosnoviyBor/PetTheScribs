@@ -1,5 +1,10 @@
 # Pet the Scribs - Lua Edition (OpenMW)
 
+## 2.0
+
+- Added hand animation for scrib petting (by Dubiousnpc and Arrean)
+- Scribs now wiggle when you pet them (by Arrean)
+
 ## 1.3
 
 - Added support for Diverse Scribs by borok

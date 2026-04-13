@@ -3,7 +3,8 @@ local anim = require("openmw.animation")
 local core = require("openmw.core")
 local self = require("openmw.self")
 
-I.AnimationController.playBlendedAnimation("idle3",
+I.AnimationController.playBlendedAnimation(
+    "idle3",
     {
         startKey = 'start',
         stopKey = 'stop',
@@ -12,6 +13,7 @@ I.AnimationController.playBlendedAnimation("idle3",
         autoDisable = true,
         blendMask = anim.BLEND_MASK.All,
         speed = 1
-    })
+    }
+)
 
-core.sendGlobalEvent("PetTheScribs_detachMe",self)
+core.sendGlobalEvent("PetTheScribs_detachMe", self)

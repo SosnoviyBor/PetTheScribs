@@ -1,9 +1,11 @@
 local types = require("openmw.types")
 local I = require("openmw.interfaces")
+
 require("scripts.PetTheScribs.logic.scribs")
-local CREATURE_SCRIPT = 'scripts/PetTheScribs/scrib_anim.lua'
-local lastJellyTime   = {}
-local totalPats       = {}
+
+local CREATURE_SCRIPT = 'scripts/PetTheScribs/scribAnim.lua'
+local lastJellyTime = {}
+local totalPats = {}
 
 local function onSave()
     return {
@@ -33,7 +35,7 @@ end
 I.Activation.addHandlerForType(types.Creature, onCreatureActive)
 
 local function onAskedDetach(creature)
-        creature:removeScript(CREATURE_SCRIPT) 
+    creature:removeScript(CREATURE_SCRIPT)
 end
 
 return {

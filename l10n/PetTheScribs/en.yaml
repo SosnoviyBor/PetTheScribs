@@ -1,9 +1,8 @@
-msg_scribPat: You pat the scrib.
 msg_caughtDisease: You have contracted {disease}.
 msg_jellyGot: You got {jellyCount} Scrib Jelly.
 
 page_name: Pet the Scribs
-page_description: You know what to do.
+page_description: Gotta pet them all!
 
 settings_groupName: Settings
 minJelly_name: Minimum Scrib Jelly
@@ -17,6 +16,3 @@ blightChance_name: Chance to Catch Blight
 blightChance_desc: >
   Happens only when petting blighted scribs.
   Respects resistances.
-
-other_groupName: Other
-enableMessages_name: Enable Messages

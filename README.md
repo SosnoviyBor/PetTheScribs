@@ -30,5 +30,7 @@ Supported scrib mods:
 ## Credits
 
 **Sosnoviy Bor** - Author  
+**Dubiousnpc** - Petting animation  
+**Arrean** - Petting animation scripts  
 **jrox8** - Inspiration and creating [Pet the Scribs REVOLUTION - OpenMW](https://www.nexusmods.com/morrowind/mods/56973)  
 **Merlord** - Inspiration and creating [Pet the Damn Scrib](https://www.nexusmods.com/morrowind/mods/52116)

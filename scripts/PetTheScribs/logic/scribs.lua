@@ -3,18 +3,9 @@ local core = require("openmw.core")
 local storage = require("openmw.storage")
 
 local settings = storage.globalSection("SettingsPetTheScribs_settings")
-local settingsOther = storage.globalSection("SettingsPetTheScribs_other")
 local l10n = core.l10n("PetTheScribs")
 
-local function doTheScribby(actor)
-    if settingsOther:get("enableMessages") then
-        actor:sendEvent("ShowMessage", { message = l10n("msg_scribPat", {}) })
-    end
-end
-
 local function normalScrib(actor, scrib, options)
-    doTheScribby(actor)
-
     local jellyCooldown = settings:get("jellyCooldown") * 60 * 60 -- in hours
     local lastJellyTime = options.lastJellyTimeList[scrib.id] or -jellyCooldown
     local currTime = world.getSimulationTime()
@@ -37,8 +28,6 @@ local function normalScrib(actor, scrib, options)
 end
 
 local function diseasedScrib(actor, scrib, options)
-    doTheScribby(actor)
-
     local activeEffects = actor.type.activeEffects(actor)
     local diseaseResist = options.resistEffect
         and activeEffects:getEffect(options.resistEffect).magnitude / 100
@@ -58,8 +47,6 @@ local function diseasedScrib(actor, scrib, options)
 end
 
 local function iceScrib(actor, scrib, options)
-    doTheScribby(actor)
-
     local telekinesisActive = actor.type.activeEffects(actor):getEffect("telekinesis").magnitude > 0
     if not telekinesisActive then
         actor.type.activeSpells(actor):add({

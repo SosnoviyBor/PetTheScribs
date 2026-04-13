@@ -49,20 +49,3 @@ I.Settings.registerGroup {
         },
     }
 }
-
-I.Settings.registerGroup {
-    key = 'SettingsPetTheScribs_other',
-    page = 'PetTheScribs',
-    l10n = 'PetTheScribs',
-    name = 'other_groupName',
-    permanentStorage = true,
-    order = 100,
-    settings = {
-        {
-            key = 'enableMessages',
-            name = 'enableMessages_name',
-            renderer = 'checkbox',
-            default = true,
-        },
-    }
-}

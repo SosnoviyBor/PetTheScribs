@@ -2,7 +2,8 @@ local I = require("openmw.interfaces")
 local anim = require("openmw.animation")
 
 local function onScribPetted()
-        I.AnimationController.playBlendedAnimation("petit",
+    I.AnimationController.playBlendedAnimation(
+        "petit",
         {
             startKey = 'start',
             stopKey = 'stop',
@@ -13,10 +14,11 @@ local function onScribPetted()
             autoDisable = true,
             blendMask = anim.BLEND_MASK.LeftArm,
             speed = 1
-        })
+        }
+    )
 end
 
-return{
+return {
     eventHandlers = {
         PetTheScribs_ScribPetted = onScribPetted,
     }
