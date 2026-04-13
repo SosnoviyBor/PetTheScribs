@@ -2,3 +2,5 @@ GLOBAL: scripts/PetTheScribs/global.lua
 
 MENU: scripts/PetTheScribs/settingsMenu.lua
 GLOBAL: scripts/PetTheScribs/settingsGlobal.lua
+PLAYER: scripts/PetTheScribs/player_anim.lua
+CUSTOM: scripts/PetTheScribs/scrib_anim.lua
