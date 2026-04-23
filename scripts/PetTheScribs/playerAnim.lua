@@ -10,9 +10,11 @@ local function onScribPetted()
             ---@diagnostic disable-next-line: assign-type-mismatch
             priority = {
                 [anim.BONE_GROUP.LeftArm] = anim.PRIORITY.Scripted,
+                [anim.BONE_GROUP.Torso] = anim.PRIORITY.Scripted,
             },
             autoDisable = true,
-            blendMask = anim.BLEND_MASK.LeftArm,
+            blendMask = anim.BLEND_MASK.LeftArm + anim.BLEND_MASK.Torso + anim.BLEND_MASK.RightArm +
+            anim.BLEND_MASK.LowerBody,
             speed = 1
         }
     )

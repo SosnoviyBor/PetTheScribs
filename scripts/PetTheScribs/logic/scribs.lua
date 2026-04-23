@@ -96,4 +96,8 @@ Scribs = {
     -- TriangleTooth's Ecology Mod
     -- https://www.nexusmods.com/morrowind/mods/47061
     ["ttooth_scrib"] = normalScrib,
+
+    -- Utility Spells
+    -- https://www.nexusmods.com/morrowind/mods/58288
+    ["scrib_summon"] = normalScrib,
 }

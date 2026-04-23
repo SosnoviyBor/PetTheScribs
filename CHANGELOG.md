@@ -1,5 +1,10 @@
 # Pet the Scribs - Lua Edition (OpenMW)
 
+## 2.1
+
+- Improved animations
+- Added support for Utility Spells by hyacinth
+
 ## 2.0
 
 - Added hand animation for scrib petting (by Dubiousnpc and Arrean)

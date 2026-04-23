@@ -26,6 +26,7 @@ Supported scrib mods:
 - [Creatures and Critters](https://www.nexusmods.com/morrowind/mods/54518) by Danae123 and many others
 - [Diverse Scribs](https://www.nexusmods.com/morrowind/mods/56176) by borok
 - [TriangleTooth's Ecology Mod](https://www.nexusmods.com/morrowind/mods/47061) by TriangleTooth
+- [Utility Spells](https://www.nexusmods.com/morrowind/mods/58288) by hyacinth (it also adds new Summon Scrib spell which has an integration with this mod, so check it out)
 
 ## Credits
 
