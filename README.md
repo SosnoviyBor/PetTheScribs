@@ -29,6 +29,8 @@ Supported scrib mods:
 - [Diverse Scribs](https://www.nexusmods.com/morrowind/mods/56176) by borok
 - [TriangleTooth's Ecology Mod](https://www.nexusmods.com/morrowind/mods/47061) by TriangleTooth
 - [Utility Spells](https://www.nexusmods.com/morrowind/mods/58288) by hyacinth (it also adds new Summon Scrib spell which has an integration with this mod, so check it out)
+- [Cutting Room Floor](https://www.nexusmods.com/morrowind/mods/47307) by Cicero
+- [Hawia Infrastructure](https://www.nexusmods.com/morrowind/mods/56510) by Tapetenklaus
 
 ## Credits
 

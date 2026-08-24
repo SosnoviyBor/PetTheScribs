@@ -1,5 +1,9 @@
 # Pet the Scribs - Lua Edition (OpenMW)
 
+## 2.2
+
+- Added support for Cutting Room Floor and Hawia Infrastructure
+
 ## 2.1.1
 
 - Fixed log spam

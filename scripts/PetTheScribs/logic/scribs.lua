@@ -100,4 +100,12 @@ Scribs = {
     -- Utility Spells
     -- https://www.nexusmods.com/morrowind/mods/58288
     ["scrib_summon"] = normalScrib,
+
+    --  Cutting Room Floor
+    -- https://www.nexusmods.com/morrowind/mods/47307
+    ["scrib_hive"] = normalScrib,
+
+    -- Hawia Infrastructure
+    -- https://www.nexusmods.com/morrowind/mods/56510
+    ["vivec_scribbles"] = normalScrib,
 }
